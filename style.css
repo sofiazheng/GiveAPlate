@@ -1,0 +1,346 @@
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.logo p {
+  color: #2d2d2d;
+  text-align:center;
+}
+
+.banner h1 {
+  height: 100vh;
+  line-height: 100vh;
+  text-align: center;
+  color: #2d2d2d;
+  margin: 0;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+.banner p {
+  height: 10px;
+  line-height: 100vh;
+  text-align: center;
+  color: #2d2d2d;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 50px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+section {
+  padding: 50px 0;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+
+/* ==========================================================================
+Navbar
+========================================================================== */
+nav {
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-content {
+  color: #2d2d2d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 70%;
+  max-width: 1200px;
+  font-family: "Open Sans"
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 16px 40px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #2d2d2d;
+  align-items: center;
+}
+
+@media screen and (max-width: 762px) {
+  .navbar-content {
+    flex-direction: column;
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  .menu ul li {
+    padding: 20px 0 0 0;
+    display: block;
+  }
+
+  .menu ul {
+    margin-top: 20px;
+    padding: 0;
+  }
+}
+
+
+/* ==========================================================================
+About Me
+========================================================================== */
+
+#about {
+  font-size: 20px;
+  text-align: center;
+  width: 80%;
+  max-width: 1000px;
+  line-height: 30px;
+  margin: 0 auto;
+}
+
+/* ==========================================================================
+Projects & experience
+========================================================================== */
+#projects-experiences {
+  font-size: 20px;
+  line-height: 30px;
+  background-color: #EDEDED;
+}
+
+/* .projects p span {
+  font-size: 18px;
+  font-weight: bold;
+} */
+
+.projects-content {
+  /* display: flex; */
+  max-width: 1200px;
+  margin: 0 auto;
+  /* justify-content: space-between; */
+}
+
+.projects-content p {
+  margin-top: 0;
+}
+
+.projects span {
+  font-weight: bold;
+}
+
+
+.projects-content {
+  column-width: 400px;
+  column-rule: 2px solid #CCC;
+  column-gap: 5em;
+}
+
+.projects {
+  vertical-align: center;
+}
+
+.experiences {
+  -webkit-column-break-inside: avoid;
+}
+
+@media screen and (max-width: 1350px) {
+  .projects-content {
+    margin: 0 10%;
+  }
+}
+
+/* ==========================================================================
+Skills
+========================================================================== */
+
+table {
+  margin: 0 auto;
+  /* width: 500px; */
+}
+
+/* table, th, td {
+  border: 1px solid #CCC;
+  border-collapse: collapse;
+} */
+
+th, td {
+  padding: 10px;
+}
+
+td {
+  text-align: center;
+}
+
+tr td:first-child {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* tr:nth-child(odd){
+  background-color: #EDEDED;
+} */
+
+.four {
+  width: 20vw;
+}
+
+.six {
+  width: 28vw;
+}
+
+.seven {
+  width: 32vw;
+}
+
+.nine{
+  width: 36vw;
+}
+
+.ten {
+  width: 40vw;
+}
+
+hr {
+  height: 10px;
+  float: left;
+  border-radius: 10px;
+}
+
+.low {
+  background-color: red;
+}
+
+.medium {
+  background-color: orange;
+}
+
+.high {
+  background-color: green;
+}
+
+/* ==========================================================================
+CONTACT
+========================================================================== */
+#contact {
+  text-align: center;
+  background-color: #EDEDED;
+}
+
+#contact ul {
+  padding: 0;
+}
+
+#contact .email {
+  font-size: 20px;
+}
+
+#contact ul li {
+  font-size: 40px;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.fa-linkedin {
+  color: #0077B5;
+}
+.fa-github {
+   color: #4078C0;
+ }
+
+/* ==========================================================================
+FOOTER
+========================================================================== */
+
+footer {
+    width: 100%;
+    background-color: #414141;
+    padding: 30px 0;
+}
+
+.copyright {
+    color: #DBDBDB;
+    font-size: 14px;
+    text-align: center;
+}
+
+img {
+  display: block;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.receiver {
+  width: 50%;
+}
+
+.myButton {
+	background-color:#fd5e5e;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times;
+	font-size:30px;
+	padding:15px 35px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myButton:hover {
+	background-color:#eb675e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.homebutton {
+  align-items: center;
+}
+
+.BackButton {
+	background-color:#fd5e5e;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times;
+	font-size:22px;
+	padding:6px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.BackButton:hover {
+	background-color:#eb675e;
+}
+.BackButton:active {
+	position:relative;
+	top:1px;
+}

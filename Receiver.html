@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Give A Plate</title>
+    <link rel="stylesheet" href="receiverstyle.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <div class="homebutton" align = "left" style= "padding: 5px 5px 5px 5px">
+      <a href="receiver_homepage.html" class="BackButton">Back</a>
+
+    <header align="middle">
+      <img class="logo" src="giveplatelogo.png" alt="Give Plate" align="middle" width="400px">
+    </header>
+
+    <body>
+
+<!-- row 1 -->
+<div class="row">
+<div class="column" style="background-color:#ffeab3;" align="middle">
+  <h2><img src="McDonalds_logo.png" align="middle" width="60px" height="60px"> </h2>
+  <p>Beef<br>Bread<br>Chicken</p>
+  <div class="popup" onclick="myFunction()"> <button>Add Item </button>
+  <span class="popuptext" id="myPopup">Added to Inventory!</span>
+</div>
+</div>
+
+<div class="column" style="background-color:#c0e7ff;" align="middle">
+  <h2><img src="Bahamabreeze_logo.jpg" align="middle" width="90px" height="60px"> </h2>
+  <p>Chicken<br>Rice<br>Vegetables</p>
+  <div class="popup" onclick="myFunction()"> <button>Add Item </button>
+  <span class="popuptext" id="myPopup">Added to Inventory!</span>
+</div>
+</div>
+
+<div class="column" style="background-color:#ffeab3;" align="middle">
+  <h2><img src="Miapa_logo.jpg" align="middle" width="60px" height="60px"> </h2>
+  <p>Dessert<br>Rice<br>Pork</p>
+  <div class="popup" onclick="myFunction()"> <button>Add Item </button>
+  <span class="popuptext" id="myPopup">Added to Inventory!</span>
+</div>
+</div>
+
+</div>
+
+<!-- row 2 -->
+<div class="row">
+<div class="column" style="background-color:#c0e7ff;" align="middle">
+  <h2><img src="Outback_logo.png" align="middle" width="100px" height="60px"> </h2>
+    <p>Fish<br>Salad<br>Soup</p>
+  <div class="popup" onclick="myFunction()"> <button>Add Item </button>
+  <span class="popuptext" id="myPopup">Added to Inventory!</span>
+</div>
+</div>
+
+<div class="column" style="background-color:#ffeab3;" align="middle">
+  <h2><img src="Piesanos_logo.jpg" align="middle" width="100px" height="60px"> </h2>
+  <p>Pasta<br>Bread<br>Chicken</p>
+  <div class="popup" onclick="myFunction()"> <button>Add Item </button>
+  <span class="popuptext" id="myPopup">Added to Inventory!</span>
+</div>
+</div>
+
+<div class="column" style="background-color:#c0e7ff;" align="middle">
+  <h2><img src="Olivegarden_logo.jpg" align="middle" width="80px" height="60px"> </h2>
+  <p>Pasta<br>Bread<br>Salad</p>
+  <div class="popup" onclick="myFunction()"> <button>Add Item </button>
+  <span class="popuptext" id="myPopup">Added to Inventory!</span>
+</div>
+</div>
+</div>
+
+
+</body>
+<div class="homebutton" align = "middle">
+  <a href="inventory.html" class="myButton">Inventory</a>
+
+</div>
+
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+
+
+  </body>
+
+
+</html>

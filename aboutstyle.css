@@ -1,0 +1,141 @@
+header{
+  align: middle;
+}
+
+body {
+  margin-left: 30px;
+  background-color: white;
+}
+
+div.checklist {
+  margin-left: 40px;
+}
+
+img.logo {
+  height: 25%;
+  width: 25%;
+}
+
+h1{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 46px;
+  text-align: left;
+  color: #2d2d2d
+}
+
+p{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align: left;
+  color: #2d2d2d
+}
+
+/* big check labels */
+.label-big-check {
+	position: relative;
+	display: block;
+	padding: 15px 15px 20px 35px;
+	margin: 0;
+	cursor: pointer;
+}
+.label-big-check input {
+	display: none;
+}
+/* font */
+
+.label-big-check .check-title {
+	font-size: 18px;
+	font-weight: 700;
+	cursor: pointer;
+  color: #2d2d2d;
+}
+.label-big-check input[type="checkbox"] + .check-title:before {
+	position: absolute;
+	top: 12px;
+	left: 0;
+	width: 30px;
+	font-family: FontAwesome;
+        content: "\f096";
+        font-size: 2em;
+        line-height: 1;
+        color: #aaa;
+}
+.label-big-check input[type="checkbox"]:checked + .check-title:before {
+    content: "\f14a";
+    color: #80cfff;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #ffdd86;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ffe298;
+}
+
+div.info {
+  border-radius: 5px;
+  background-color: #cde8f8;
+  padding: 20px;
+}
+
+.myButton {
+	background-color:#e4685d;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times;
+	font-size:30px;
+	padding:15px 35px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myButton:hover {
+	background-color:#eb675e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.BackButton {
+	background-color:#fd5e5e;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times;
+	font-size:22px;
+	padding:6px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.BackButton:hover {
+	background-color:#eb675e;
+}
+.BackButton:active {
+	position:relative;
+	top:1px;
+}
